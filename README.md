@@ -1,2 +1,0 @@
-# Basea
-My First Respository
