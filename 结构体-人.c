@@ -31,6 +31,21 @@
 //	return 0;
 //}
 
+//struct person
+//{
+//	char name[20];
+//	int age;
+//};
+//
+//int main()
+//{
+//	struct person A = { "潘婷",23};
+//	struct person *a = &A;
+//	printf("%s\n",(*a).name);
+//	printf("%d\n", (*a).age);
+//	return 0;
+//}
+
 struct person
 {
 	char name[20];
@@ -39,9 +54,9 @@ struct person
 
 int main()
 {
-	struct person A = { "潘婷",23};
+	struct person A = { "潘婷",23 };
 	struct person *a = &A;
-	printf("%s\n",(*a).name);
-	printf("%d\n", (*a).age);
+	printf("%s\n", a->name);
+	printf("%d\n", a->age);
 	return 0;
 }
