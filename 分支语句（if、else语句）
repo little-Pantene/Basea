@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<string.h>
+
+
+int main()
+{
+	int age = 100;
+	if (age < 18)
+	{                              //if语句{}不可少；
+		printf("成年啦\n");
+	}
+	else if (age > 18 && age < 40)
+	{
+		printf("青年啦\n");
+	}
+	else if (age > 40 && age < 70)
+	{
+		printf("老啦\n");
+	}
+	else
+		printf("老不死的！\n");
+	return 0;
+}
+
+//int main()
+//{
+//	int age = 18;
+//	if (age < 18)
+//		printf("潘婷是未成年\n");
+//	else
+//		printf("潘婷刚成年\n");
+//	return 0;
+//}
+
+//int main()
+//{
+//	int age = 8;
+//	if (age < 18)
+//		printf("潘婷是未成年\n");
+//	return 0;
+//}
